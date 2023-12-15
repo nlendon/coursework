@@ -1,0 +1,92 @@
+.profile {
+
+  img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+}
+
+.visualization {
+  margin-top: 20px;
+}
+
+#tools {
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  user-select: none;
+
+  button {
+    border: none;
+    background: none;
+    margin: 5px;
+    cursor: pointer;
+  }
+}
+
+.query {
+  padding-top: 20px;
+
+  div {
+    gap: 5px;
+    padding: 20px;
+  }
+
+  .ant-space-item {
+    color: #000;
+  }
+}
+
+.layout {
+  padding: 10px
+}
+
+.queryModal {
+  display: grid;
+
+  a {
+    padding: 10px;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+
+
+    &:hover {
+      transition: 0.5s;
+      text-shadow: 0 0 2px #000;
+    }
+  }
+}
+
+.expandInfo {
+  padding-left: 3%;
+  text-align: left;
+
+  p {
+    span {
+      font-size: 15px;
+      color: black;
+    }
+
+    a {
+      color: #7166F8;
+    }
+  }
+}
+
+.datasheetFilters {
+  box-shadow: 0 4px 36px rgba(0, 0, 0, 0.16);
+  padding: 10px;
+  overflow: auto;
+  height: calc(100vh - 24vh);
+}
+
+.deleteButt {
+  background: red;
+  color: #fff;
+}
